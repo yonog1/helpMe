@@ -1,0 +1,9 @@
+def thing():
+    x=input("enter a number: ")
+    num=0
+    for i in range(1,100):
+        if i % x == 0:
+            num += 1
+        return num
+
+print(thing())
